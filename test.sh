@@ -5,6 +5,8 @@ rm -rf screenshots
 mkdir -p screenshots
 paths=$(find maps/mandatory/valid -name "*.cub")
 
+SCREENSHOT_NAME='screenshot.bmp'
+
 for path in $paths ; do
 	error=$(./cub3D $path --save 2>&1)
 	if [ ! $? -eq 0 ]; then
