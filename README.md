@@ -1,2 +1,2 @@
 # cub3D_tester
-tester for  cub3D
+Tester for 42 school's cub3D raycasting project
